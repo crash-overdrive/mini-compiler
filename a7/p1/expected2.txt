@@ -1,0 +1,17 @@
+start BOF procedures EOF
+ procedures main
+  main INT WAIN LPAREN dcl COMMA dcl RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+   dcl type ID
+    type INT
+   dcl type ID
+    type INT
+   dcls
+   statements
+   expr expr PLUS term
+    expr term
+     term factor
+      factor ID
+    term term STAR factor
+     term factor
+      factor ID
+     factor ID

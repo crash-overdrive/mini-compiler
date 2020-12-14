@@ -1,0 +1,111 @@
+start BOF procedures EOF
+BOF BOF
+procedures main
+main INT WAIN LPAREN dcl COMMA dcl RPAREN LBRACE dcls statements RETURN expr SEMI RBRACE
+INT int
+WAIN wain
+LPAREN (
+dcl type ID
+type INT
+INT int
+ID x
+COMMA ,
+dcl type ID
+type INT
+INT int
+ID y
+RPAREN )
+LBRACE {
+dcls
+statements statements statement
+statements statements statement
+statements statements statement
+statements statements statement
+statements statements statement
+statements statements statement
+statements
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor ID
+ID y
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor ID
+ID x
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr expr PLUS term
+expr term
+term factor
+factor ID
+ID x
+PLUS +
+term factor
+factor ID
+ID y
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr expr PLUS term
+expr term
+term factor
+factor ID
+ID x
+PLUS +
+term term STAR factor
+term factor
+factor NUM
+NUM 2
+STAR *
+factor ID
+ID y
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr expr PLUS term
+expr term
+term factor
+factor NUM
+NUM 2
+PLUS +
+term term STAR factor
+term factor
+factor ID
+ID x
+STAR *
+factor ID
+ID y
+RPAREN )
+SEMI ;
+statement PRINTLN LPAREN expr RPAREN SEMI
+PRINTLN println
+LPAREN (
+expr term
+term factor
+factor NUM
+NUM 42
+RPAREN )
+SEMI ;
+RETURN return
+expr term
+term factor
+factor ID
+ID x
+SEMI ;
+RBRACE }
+EOF EOF

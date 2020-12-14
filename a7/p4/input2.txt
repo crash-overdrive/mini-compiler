@@ -1,0 +1,51 @@
+3
+BOF
+EOF
+x
+2
+S
+A
+S
+3
+S BOF A EOF
+A x
+A x x A
+7
+9
+4 EOF reduce 1
+2 A shift 1
+0 BOF shift 2
+3 EOF reduce 2
+5 A shift 3
+5 x shift 4
+4 x shift 5
+2 x shift 4
+1 EOF shift 6
+0 BOF
+0 EOF
+0 A
+0 x
+1 BOF
+1 EOF
+1 A
+1 x
+2 BOF
+2 EOF
+2 A
+2 x
+3 BOF
+3 EOF
+3 A
+3 x
+4 BOF
+4 EOF
+4 A
+4 x
+5 BOF
+5 EOF
+5 A
+5 x
+6 BOF
+6 EOF
+6 A
+6 x

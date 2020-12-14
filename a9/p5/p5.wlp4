@@ -1,0 +1,7 @@
+int wain(int x, int y) {  
+int total = 0;
+int total2 = 5;
+total = x+y;
+println(total);
+return total;
+}

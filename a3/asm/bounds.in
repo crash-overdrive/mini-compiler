@@ -1,0 +1,4 @@
+.word 2147483648
+ilabel: .word -2147483648
+.word 1234 label: ;;this is a comment
+.word 4294067296

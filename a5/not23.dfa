@@ -1,0 +1,42 @@
+2
+0
+1
+7
+start
+onlyzero
+onlyone
+0mod3
+1mod3
+2mod3
+2mod31
+start
+2
+onlyone
+2mod31
+12
+start 0 onlyzero
+start 1 onlyone
+onlyone 0 2mod3
+onlyone 1 0mod3
+1mod3 0 2mod3
+1mod3 1 0mod3
+2mod3 0 1mod3
+2mod3 1 2mod31
+0mod3 0 0mod3
+0mod3 1 onlyone
+2mod31 0 1mod3
+2mod31 1 2mod31
+1 0 0
+1 0 1 1
+1 0 1 0 0 1
+1 0 0 1
+1 0 0
+1
+1 1 1
+1 0 1
+0 
+0 0 
+0 0 1
+1 0 0 0
+1 1 1 1 1 1
+1 1 1 1

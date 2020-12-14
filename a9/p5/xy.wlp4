@@ -1,0 +1,1 @@
+int wain(int x, int y) { int b=5; int a=4; println(a); println(y); return x; }

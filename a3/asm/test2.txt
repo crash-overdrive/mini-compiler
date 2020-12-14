@@ -1,0 +1,4 @@
+	Input:
+a: b: c: d: e:
+  .word 10
+f:

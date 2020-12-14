@@ -1,0 +1,10 @@
+int f(int x) { return x - 2; }
+int g() {
+  int f = 3;
+  int z = 18;
+  return z - 42;
+}
+
+int wain(int a, int b) {
+  return g() / f(b);
+}

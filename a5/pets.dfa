@@ -1,0 +1,41 @@
+4
+cat
+dog
+iguana
+mouse
+6
+start
+catnotfound
+catfound
+dogfound
+mousefound
+iguanafound
+start
+1
+mousefound
+24
+start cat catfound
+start dog catnotfound
+start mouse catnotfound
+start iguana catnotfound
+catnotfound cat catfound
+catnotfound dog catnotfound
+catnotfound mouse catnotfound
+catnotfound iguana catnotfound
+catfound cat catfound
+catfound dog dogfound
+catfound mouse catfound
+catfound iguana catfound
+dogfound cat dogfound
+dogfound dog dogfound
+dogfound mouse dogfound
+dogfound iguana iguanafound
+mousefound cat mousefound
+mousefound dog mousefound
+mousefound mouse mousefound
+mousefound iguana mousefound
+iguanafound cat iguanafound
+iguanafound mouse mousefound
+iguanafound dog iguanafound
+iguanafound iguana iguanafound
+cat dog iguana mouse

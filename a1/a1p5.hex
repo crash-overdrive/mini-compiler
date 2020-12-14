@@ -1,0 +1,4 @@
+.word 0x2014
+.word 42
+.word 0x441820
+.word 0x3E00008

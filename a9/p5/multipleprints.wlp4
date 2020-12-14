@@ -1,0 +1,7 @@
+int wain(int x, int y) { println(y); 
+println(x); 
+println(x+y);
+println(x+2*y);
+println(2+x*y);
+println(42);
+return x; }

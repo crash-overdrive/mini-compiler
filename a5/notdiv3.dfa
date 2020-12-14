@@ -1,0 +1,34 @@
+2
+0
+1
+6
+start
+onlyzero
+onlyone
+one1
+two1
+three1
+start
+2
+onlyone
+two1
+10
+start 0 onlyzero
+start 1 onlyone
+onlyone 0 two1
+onlyone 1 three1
+one1 0 two1
+one1 1 three1
+two1 0 one1
+two1 1 two1
+three1 0 three1
+three1 1 one1
+1
+1 1 1
+1 0 1
+0 
+0 0 
+0 0 1
+1 0 0 0
+1 1 1 1 1 1
+1 1 1 1

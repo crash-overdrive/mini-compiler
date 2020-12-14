@@ -1,0 +1,34 @@
+int getprod(int i, int* arr) {
+	int returnvalue = 0;
+
+	if (i<=1) {
+		returnvalue = 1;
+	}
+	else {
+		returnvalue = i+getprod(i-1 , arr);
+	}
+	println(returnvalue);
+	return returnvalue;
+}
+
+
+int wain(int a, int b) {
+	int count = 0;
+	int i = 0;
+	int* arr = NULL;
+	count = getprod(a, arr);
+	arr = new int[10];
+	while (i < 10) {
+		*(arr + i) = i;
+		i = i+1;
+	}
+	i = 0;
+	while (i < 10) {
+		println(*(arr + i));
+		i = i + 2;
+	}
+	println(getprod(a, arr));
+	return count;
+}
+
+

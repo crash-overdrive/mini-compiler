@@ -1,0 +1,27 @@
+int wain (int x, int n) {
+	int odds = 1;
+	int zeropower = 0;
+	int result = 0;
+	if (n == 0) {
+		zeropower = 1;
+	} 
+	else {}
+	while (n > 1) {
+		if (n%2 == 0) {
+			x = x * x;
+			n = n / 2;
+		}
+		else {
+			odds = x * odds;
+			x = x * x;
+			n = (n - 1) / 2;
+		}
+	}
+	if (zeropower == 1) {
+		result = 1;
+	}
+	else {
+		result = x * odds;
+	}
+	return result;
+}

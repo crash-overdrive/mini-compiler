@@ -1,0 +1,6 @@
+.word 128
+
+
+.word -128
+.word 80000000
+.word 0xffffffff

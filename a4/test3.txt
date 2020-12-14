@@ -1,0 +1,4 @@
+a: .word 1
+b: .word 2 c:
+ab: .word 4
+a: wow: .word 5

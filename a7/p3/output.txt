@@ -1,0 +1,46 @@
+6
+)
+-
+BOF
+id
+EOF
+(
+3
+S
+expr
+term
+S
+5
+term ( expr )
+S BOF expr EOF
+term id
+expr term
+expr expr - term
+0 BOF shift 6
+1 id shift 2
+1 term shift 8
+1 ( shift 3
+2 - reduce 3
+2 ) reduce 3
+2 EOF reduce 3
+3 id shift 2
+3 expr shift 7
+3 term shift 4
+3 ( shift 3
+4 ) reduce 1
+4 EOF reduce 1
+4 - reduce 1
+6 ( shift 3
+6 term shift 4
+6 id shift 2
+6 expr shift 10
+7 - shift 1
+7 ) shift 9
+8 EOF reduce 2
+8 - reduce 2
+8 ) reduce 2
+9 - reduce 4
+9 ) reduce 4
+9 EOF reduce 4
+10 EOF shift 5
+10 - shift 1

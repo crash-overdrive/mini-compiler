@@ -1,0 +1,24 @@
+Type check on procedures in the whole Parse Tree called!
+Type check on statements in function: wain has started!!
+STATEMENTS has rule: statements statements statement
+STATEMENT has rule: statement DELETE LBRACK RBRACK expr SEMI
+Parsing the children of STATEMENT now.. STATEMENT has rule statement DELETE LBRACK RBRACK expr SEMI
+Calling type_check on expr in delete body!!
+type check on a expr/lvalue in function wain called!! expr/lvalue has rule: expr term
+called typeOf on rule: factor ID and got type as int*
+called typeOf on rule: term factor and got type as int*
+called typeOf on rule: expr term and got type as int*
+Successful Usage of expr/lvalue in rule: expr term, type: int*
+Successful completion of rule: statement DELETE LBRACK RBRACK expr SEMI
+Finished Parsing the children of STATEMENT with rule statement DELETE LBRACK RBRACK expr SEMI
+STATEMENTS dissappeared and ofcourse has rule: statements
+Type check on statements in function: wain is done!!
+Type check on return statement in function: wain has started!!
+type check on a expr/lvalue in function wain called!! expr/lvalue has rule: expr term
+called typeOf on rule: factor NUM and got type as int
+called typeOf on rule: term factor and got type as int
+called typeOf on rule: expr term and got type as int
+Successful Usage of expr/lvalue in rule: expr term, type: int
+Function wain returned successfully!!
+Type check on return statement in function: wain is done!!
+Type check on function wain completed!!

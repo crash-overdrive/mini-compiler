@@ -1,0 +1,51 @@
+4
+a
+b
+c
+d
+8
+start 
+notfounda
+founda
+foundab
+foundabc
+foundabca
+foundabcab
+foundabcabd
+start
+1
+foundabcabd
+32
+start a founda
+start b notfounda
+start c notfounda
+start d notfounda
+notfounda a founda
+notfounda b notfounda
+notfounda c notfounda
+notfounda d notfounda
+founda a founda
+founda b foundab
+founda c notfounda
+founda d notfounda
+foundab a founda
+foundab b notfounda
+foundab c foundabc
+foundab d notfounda
+foundabc a foundabca
+foundabc b notfounda
+foundabc c notfounda
+foundabc d notfounda
+foundabca a founda
+foundabca b foundabcab
+foundabca c notfounda
+foundabca d notfounda
+foundabcab a founda
+foundabcab b notfounda
+foundabcab c foundabc
+foundabcab d foundabcabd
+foundabcabd a foundabcabd
+foundabcabd b foundabcabd
+foundabcabd c foundabcabd
+foundabcabd d foundabcabd
+a b c a b d d

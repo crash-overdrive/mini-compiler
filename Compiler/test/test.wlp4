@@ -1,0 +1,11 @@
+int bar() {
+  int * arr = NULL;
+  arr = new int[5];
+  *(arr+3)=2;
+  delete[] arr;
+  return 10; 
+}
+
+int wain(int a, int b){
+	return bar();
+}

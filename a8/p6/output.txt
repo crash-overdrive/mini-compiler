@@ -1,0 +1,17 @@
+ERROR : function wain's parameter are: int int but got: int* int*
+Type check on procedures in the whole Parse Tree called!
+Type check on declarations in function: wain has started!!
+type check on dcls in function: wain called!! dcls has rule: dcls
+Type check on declarations in function: wain is done!!
+Type check on statements in function: wain has started!!
+STATEMENTS dissappeared and ofcourse has rule: statements
+Type check on statements in function: wain is done!!
+Type check on return statement in function: wain has started!!
+type check on a expr/lvalue in function wain called!! expr/lvalue has rule: expr term
+called typeOf on rule: factor NUM and got type as int
+called typeOf on rule: term factor and got type as int
+called typeOf on rule: expr term and got type as int
+Successful Usage of expr/lvalue in rule: expr term, type: int
+Function wain returned successfully!!
+Type check on return statement in function: wain is done!!
+Type check on function wain completed!!

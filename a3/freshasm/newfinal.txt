@@ -1,0 +1,64 @@
+.word 123
+loop: .word 1
+branch: start: a: end: .word 3
+.word 5
+beq2:
+
+
+branch2: b:
+
+
+.word 5
+.word 123
+loop: .word 1
+branch: start: a: end: .word 3
+.word 5
+beq2:
+
+
+branch2: b:
+
+
+.WORD 5
+abba:
+abba2: abba3:
+.word 123
+loop: .word 1
+branch: start: a: end: .word 3
+.word 5
+beq2:
+
+
+branch2: b:
+
+
+.word 5
+.word 2147483648
+.word -2147483648
+.word 4294967295
+.word 128
+
+
+.word -128
+.word 80000000
+.word 0xffffffff
+.word 123
+label: .word 1
+bro:
+endthis:
+.word 2147483648 
+divine:
+.word 12
+label:
+.word label abcde: 
+.word abcde:
+.word troll
+dance dance
+what
+.word ,
+.word ()
+,
+$31
+jr $31
+JR $31
+

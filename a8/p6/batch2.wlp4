@@ -1,0 +1,6 @@
+int foo(int a) { 
+  int b = 0;
+  int *c = NULL;
+  return a + b + *c; 
+}
+int wain (int a, int b) {return a;}

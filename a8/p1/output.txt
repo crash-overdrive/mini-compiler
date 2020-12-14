@@ -1,0 +1,9 @@
+id int 
+
+foo int int* 
+
+wain int* int 
+b int
+a int*
+c int
+

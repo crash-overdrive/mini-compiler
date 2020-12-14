@@ -1,0 +1,117 @@
+.word 123
+loop: .word 1
+branch: start: a: end: .word 3
+.word 5
+beq2:
+
+
+branch2: b:
+
+
+.word 5
+.word 123
+loop: .word 1
+branch: start: a: end: .word 3
+.word 5
+beq2:
+
+
+branch2: b:
+
+
+.WORD 5
+abba:
+abba2: abba3:
+.word 123
+loop: .word 1
+branch: start: a: end: .word 3
+.word 5
+beq2:
+
+
+branch2: b:
+
+
+.word 5
+.word 2147483648
+.word -2147483648
+.word 4294967295
+.word 128
+
+
+.word -128
+.word 80000000
+.word 0xffffffff
+.word 123
+label: .word 1
+bro:
+endthis:
+.word 2147483648 
+divine:
+.word 12
+label:
+.word label abcde: 
+.word abcde:
+.word troll
+dance dance
+what
+.word ,
+.word ()
+,
+$31
+jr $31
+jr 1 $31
+jr $30
+jr ,
+jalr $31
+jalr 1 $31
+jalr $30
+jalr divine
+
+add $31, $29, $30
+sub divine, $29, $30
+slt $31( $31, $31
+sltu  $31, $31) $29
+add divine, divine, divine 
+add $31 $31 $31 $31 $31
+add $31, divine, $31
+add $31, $31, $31, $31
+beq $2, $3, 124
+beq $2, $3, 0x124
+beq $3, $5, 123
+bne $7, $23, -345
+bne $7, $23, 32768
+beq $7, $23, -32768
+
+beq $0, $0, 0x1234
+beq $0, $0, 0x8000
+beq $0, $0, 0xffff
+beq $0, $0, 0x0000
+beq $0, $0, 0x7fff
+beq $0, $0, 0x1
+beq $0, $0, 0x10000
+
+beq $0, $0, divine
+BNE $0, $0, abra
+BeQ divine, divine, divine
+beq (0), $2, $2
+
+sw $31, 9($30)
+sw 1, 9($30)
+sw $31, 9(2)
+sw $31, $9($30)
+sw $31, 9)$30)
+sw $31 9($30)
+sw $31 $31 9($30)
+sw $31, 0x10000($30)
+sw $31, 65536($30)
+sw $31, -65537($30)
+sw $31, 65536($30)
+sw $31, 0($30)
+sw $31, -32768($29)
+sw $31, 32767($30)
+sw $31, 0($30)
+lw $31, $30)2)
+lw $31; $30($2)
+.word ; 31
+lw $31
